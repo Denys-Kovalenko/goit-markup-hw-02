@@ -27,6 +27,10 @@ button {
 
 .header {}
 
+.header:hover,
+.header:focus {
+    color: #404bbf
+}
 
 .header-navigation {}
 
@@ -40,7 +44,7 @@ button {
     color: #2e2f42;
 }
 
-.header-logo span {
+.header-logo-italica {
     color: #4d5ae5;
 }
 
@@ -56,7 +60,9 @@ button {
     color: #2e2f42;
 }
 
-.header-contacts {}
+.header-contacts {
+    font-style: normal;
+}
 
 .header-contacts-list {}
 
@@ -99,6 +105,12 @@ button {
     background: #4d5ae5;
 }
 
+.title-btn:hover,
+.title-btn:focus {
+    color: #404BBF
+}
+
+
 
 /* ________________other____________ */
 
@@ -127,14 +139,15 @@ button {
 
 
 .aside {
-    background: #f4f4fd;
+    background-color: #FFFFFF;
+    text-transform: capitalize;
 }
 
 
 .aside-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -169,12 +182,14 @@ button {
 
 
 /* _______________Meta ____________*/
-.meta {}
+.meta {
+    text-transform: capitalize;
+}
 
 .meta-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -223,7 +238,7 @@ button {
     ;
 }
 
-.footer-logo span {
+.footer-logo-italica {
     color: #4d5ae5;
 }
 
