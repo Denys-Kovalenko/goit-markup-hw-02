@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background: #FFFFFF;
+    color: #434455;
     text-transform: capitalize;
 }
 
@@ -107,7 +108,7 @@ button {
 
 .title-btn:hover,
 .title-btn:focus {
-    color: #404BBF
+    background-color: #404BBF
 }
 
 
