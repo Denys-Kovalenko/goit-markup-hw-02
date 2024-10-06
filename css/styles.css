@@ -2,8 +2,10 @@ body {
     font-family: 'Roboto', sans-serif;
     background: #FFFFFF;
     text-transform: capitalize;
-    body-style: #434455;
+    text-wrap-style: #434455;
 }
+
+
 
 ul {
     list-style: none;
@@ -20,7 +22,6 @@ address {
 button {
     font-family: inherit;
 }
-
 
 
 /* _________________* header *___________________ */
@@ -41,11 +42,11 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
-.header-logo-italica {
-    color: #4d5ae5;
+.header-logo-italic {
+    color: #2e2f42;
 }
 
 .header-menu-list {}
@@ -234,12 +235,12 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
     ;
 }
 
-.footer-logo-italica {
-    color: #4d5ae5;
+.footer-logo-italic {
+    color: #f4f4fd;
 }
 
 .foter-item-text {
