@@ -2,7 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
     background: #FFFFFF;
     text-transform: capitalize;
-    text-wrap-style: #434455;
 }
 
 
@@ -79,7 +78,7 @@ button {
 
 
 
-/* ______________main___________ */
+/* ______________main перша секція___________ */
 
 
 .title {
@@ -113,7 +112,7 @@ button {
 
 
 
-/* ________________other____________ */
+/* ________________other друга секція____________ */
 
 .features {}
 
@@ -138,10 +137,12 @@ button {
 }
 
 
+/*_______aside Третя секція_____ */
+
 
 .aside {
     text-transform: capitalize;
-    background-color: #F4F4FD
+    background: #f4f4fd;
 }
 
 
@@ -156,7 +157,9 @@ button {
 
 .aside-list {}
 
-.aside-item {}
+.aside-item {
+    background-color: #FFFFFF
+}
 
 .aside-item-img {}
 
@@ -182,7 +185,7 @@ button {
 
 
 
-/* _______________Meta ____________*/
+/* _______________Meta  четверта секція____________*/
 .meta {
     text-transform: capitalize;
 }
@@ -243,7 +246,7 @@ button {
     color: #f4f4fd;
 }
 
-.foter-item-text {
+.footer-item-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
