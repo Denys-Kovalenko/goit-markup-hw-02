@@ -28,8 +28,8 @@ button {
 
 .header {}
 
-.header:hover,
-.header:focus {
+.header-menu-link:hover,
+.header-menu-link:focus {
     color: #404bbf
 }
 
